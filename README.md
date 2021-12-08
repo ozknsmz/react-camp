@@ -1,6 +1,6 @@
-# PACKAGES
+# REACT
 
-<h1>REACT</h1>
+<h2>PACKAGES</h2>
 
 <ul>
 <li>SEMANTIC UI</li>
