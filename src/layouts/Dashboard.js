@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Navi from "./Navi";
+
+
+
 
 export default function Dashboard() {
-    return (
-        <div>
-            Homepage
-        </div>
-    )
+  return (
+    <div>
+        <Navi/>
+    </div>
+  );
 }
