@@ -1,6 +1,7 @@
+# PACKAGES
 
-## Packages
+<h1>REACT</h1>
 
-Semantic UI
-Axios
-
+<ul>
+<li>SEMANTIC UI</li>
+<li>AXIOS</li>
