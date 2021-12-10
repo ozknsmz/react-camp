@@ -11,7 +11,7 @@ export default function ProductList() {
     productService.getProduct().then(result=>setProducts(result.data.data))
 
     //then() başarılı olursa manasında
-  })
+  },[])
 
   return (
     <div>
