@@ -1,16 +1,19 @@
 import React from "react";
 import Categories from "./Categories";
-import Navi from "./Navi";
-import ProductList from "../Pages/ProductList"
-
-
-
+import { Grid } from 'semantic-ui-react'
+import ProductList from "../Pages/ProductList";
 
 export default function Dashboard() {
   return (
     <div>
-        <Categories/>
-        <ProductList/>
+      <Grid>
+        <Grid.Column width={4}>
+          <Categories />
+        </Grid.Column>
+        <Grid.Column width={12}>
+          <ProductList />
+        </Grid.Column>
+      </Grid>
     </div>
   );
 }
