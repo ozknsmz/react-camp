@@ -6,7 +6,7 @@ import CardSummary from "./CardSummary";
 export default function Navi() {
   return (
     <div>
-      <Menu inverted>
+      <Menu inverted fixed="top">
         <Container>
           <Menu.Item name="home" />
           <Menu.Item name="messages" />
