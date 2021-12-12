@@ -5,7 +5,7 @@ import { Dropdown } from "semantic-ui-react";
 export default function CardSummary() {
   return (
     <div>
-      <Dropdown item text="Language">
+      <Dropdown item text="Sepetiniz">
         <Dropdown.Menu>
           <Dropdown.Item>Iphone Phone case</Dropdown.Item>
           <Dropdown.Item>Samsung Phone case</Dropdown.Item>
